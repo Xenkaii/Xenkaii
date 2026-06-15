@@ -97,8 +97,7 @@ Multi-session · Context-aware · Anime lore · Games · Media downloader · Mod
 
 ## 今聴いている — now playing
 
-[![spotify](https://spotify-github-profile.kittinan.dev/api/view?uid=31yg3xp63jqgmkph2cmphenarqci&cover_image=true&theme=novatorem&show_offline=false&background_color=0d0d0d&interchange=false&bar_color=9333ea&bar_color_cover=false)](https://open.spotify.com/user/31yg3xp63jqgmkph2cmphenarqci)
-
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31yg3xp63jqgmkph2cmphenarqci&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
 </div>
 
 ---
