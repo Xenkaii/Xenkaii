@@ -1,134 +1,180 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0533,100:2d1b69&height=200&section=header&text=Xenkaii&fontSize=70&fontColor=c084fc&animation=fadeIn&fontAlignY=38&desc=コードを書く者&descAlignY=60&descSize=18&descColor=7c3aed" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a1a,100:0d0d0d&height=220&section=header&text=XENKAII&fontSize=58&fontColor=e8e6e1&animation=fadeIn&fontAlignY=42&desc=systems%20engineer%20%2F%2F%20full-stack%20%2F%2F%20game%20architecture&descAlignY=62&descSize=15&descColor=8a8a8a" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=1000&color=B0AEA8&center=true&vCenter=true&width=600&height=30&lines=building+Astral+%40+xen-labs;distributed+systems+%2F%2F+real-time+state;Kolkata%2C+India)](https://github.com/xen-labs)
+
+<img src="assets/divider-ink.svg" width="480" alt="" />
 
 </div>
 
-<div align="center">
+<br/>
 
-```
-ﾆｷﾞﾔｶﾅ ｼﾞｮｳﾎｳﾉ ｾｶｲﾆ ｺﾄﾊﾞﾜ ﾅｶﾅｶ ﾀﾄﾞﾘﾂｶﾅｲ
-　　　　　　　　　　　　　　　　　
-カルカッタの夜に育った — 育てられたのはコードと音楽
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=800&color=9333EA&center=true&vCenter=true&multiline=true&width=600&height=80&lines=hobbyist+%2F%2F+night+builder;Kolkata+%E2%86%92+%E3%82%B3%E3%83%BC%E3%83%89+%E3%82%92+%E6%9B%B8%E3%81%8F;Valorant+%7C+Anime+%7C+always+in+a+playlist)](https://github.com/Xenkaii)
-
-</div>
-
----
-
-<img align="right" width="360" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ6eXBuNmM4bGkxcDJsaml3aTR4eTVjMm1hdzlzZHdsMGh3djkzZSZlcD12MV9pbnRlcm5hbGdfaWZfaW1hZ2VzX2dpZnMmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" />
-
-```zsh
-  ┌──────────────────────────────┐
-  │   ~ whoami                        │
-  └──────────────────────────────┘
-
-  name      →  Xenkaii
-  location  →  Kolkata, India 🌙
-  status    →  probably debugging
-  timezone  →  awake when I shouldn't be
-
-  currently →  building something
-               no one asked for
-               but everyone will need
-
-  interests →  [ anime, valorant,
-                 music, late nights,
-                 code that feels alive ]
-```
-
-<br clear="right"/>
-
----
-
-<div align="center">
-
-## 夜のプロジェクト — night projects
-
-</div>
-
-<table>
+<table align="center">
 <tr>
-<td width="50%">
+<td width="58%" valign="top">
 
-### ◈ nostalgia
-> *An AI-powered WhatsApp bot with group memory, personalities, and too many commands.*
-
-Multi-session · Context-aware · Anime lore · Games · Media downloader · Moderation
-
-`TypeScript` `Node.js` `MongoDB` `Groq / LLaMA 3.3`
+```yaml
+xenkaii:
+  role:       Founder & Systems Architect, xen-labs
+  building:   Astral — real-time multiplayer game platform
+  stack:      TypeScript end-to-end, Node.js, MongoDB
+  focus:
+    - distributed state across chat-native + web clients
+    - event-driven architecture, no polling, no cron hacks
+    - game economy design: balance, sinks, progression curves
+  believes:   "the interface is disposable, the state machine isn't"
+```
 
 </td>
-<td width="50%">
+<td width="42%" valign="top" align="center">
 
-### ◈ ????? &nbsp; `[ BUILDING ]`
-> *The next one. You'll know when it's ready.*
 
-`????` `????` `????`
+<img src="https://i.ibb.co/Hpn0HrDQ/1002996722.jpg" width="300" style="border-radius:2px; filter:grayscale(15%);" />
+
+<sub><i>ref. panel — replace above</i></sub>
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
 <div align="center">
 
-## 武器 — arsenal
+## what I'm building
 
 </div>
 
+Astral started as a WhatsApp-native RPG — dice-roll combat, card mechanics, a persistent economy running entirely through chat commands. That's still the engine. What changed is the ambition around it: **the bot is the game server, the webapp is everything the chat window can't be** — stat sheets, guild pages, leaderboards, trade history, character sheets you can actually screenshot and be proud of.
+
+Two repos, one platform:
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `astral-api`
+**the engine.** Command routing, session orchestration, game state, economy logic. Every player action — win a duel, forge an item, join a raid — is an event this service owns and the web layer only *reflects*.
+
+`TypeScript` `Node.js` `Fastify` `MongoDB` `Baileys`
+
+- Multi-session bot architecture — several game instances, one shared core
+- Command pipeline: middleware → auth/permission gate → handler → state mutation → broadcast
+- Turn-based combat resolver with deterministic RNG (replayable, auditable rolls)
+- Economy layer: currency sinks, drop tables, trade validation — designed so the numbers can't be gamed
+
 <div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-1a0533?style=for-the-badge&logo=typescript&logoColor=c084fc)
-![Node.js](https://img.shields.io/badge/Node.js-1a0533?style=for-the-badge&logo=node.js&logoColor=c084fc)
-![MongoDB](https://img.shields.io/badge/MongoDB-1a0533?style=for-the-badge&logo=mongodb&logoColor=c084fc)
-![Git](https://img.shields.io/badge/Git-1a0533?style=for-the-badge&logo=git&logoColor=c084fc)
-![JavaScript](https://img.shields.io/badge/JavaScript-1a0533?style=for-the-badge&logo=javascript&logoColor=c084fc)
-![Linux](https://img.shields.io/badge/Linux-1a0533?style=for-the-badge&logo=linux&logoColor=c084fc)
-
+<img src="https://media.tenor.com/seGvGe7Cp2cAAAAi/anime-bocchi.gif" width="180" style="border-radius:4px;" />
+<br/><sub>combat/dice/engine-flavored motion here</sub>
 </div>
 
----
+</td>
+<td width="50%" valign="top">
+
+### `astral-web`
+**the mirror.** Players link their account once, then get everything the chat interface was never going to render well — animated stat cards, party management, a proper inventory grid.
+
+`TypeScript` `Next.js` `Tailwind` `WebSockets`
+
+- Magic-link auth — bot never DMs first, web never asks for a password
+- Live-updating character sheets via socket push, not refresh-and-pray
+- Guild/party dashboards, trade ledger, seasonal leaderboard
+- Every screen designed to be screenshotted — this is the "flex" surface
 
 <div align="center">
-
-## 今聴いている — now playing
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31yg3xp63jqgmkph2cmphenarqci&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false&mode=dark&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31yg3xp63jqgmkph2cmphenarqci&redirect=true)
+<img src="https://media.tenor.com/xKr1nlG8rgsAAAAj/spookiline-hi.gif" width="180" style="border-radius:4px;" />
+<br/><sub>UI/interface-flavored motion here</sub>
 </div>
 
----
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
-
-## 統計 — stats
-
-![Xenkaii's GitHub stats](https://github-readme-stats.vercel.app/api?username=Xenkaii&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=c084fc&icon_color=9333ea&text_color=a78bfa&rank_icon=github)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Xenkaii&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=c084fc&text_color=a78bfa)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Xenkaii&theme=midnight-purple&hide_border=true&background=0d0d0d&ring=9333ea&fire=c084fc&currStreakLabel=a78bfa)](https://git.io/streak-stats)
-
+<img src="https://cdn.dribbble.com/userupload/22427615/file/original-7ff312faccfd3e7e495872e91c2b189b.gif" width="380" style="border-radius:4px;" />
+<br/><sub>system/data-flow motion here — this one can be the biggest of the four</sub>
 </div>
 
----
+<br/>
 
 <div align="center">
 
-## 繋がる — connect
+## how it's wired
 
-[![WhatsApp](https://img.shields.io/badge/yoo%20xenkai-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/916296247464?text=Yoo%20Xenkai)
-[![Spotify](https://img.shields.io/badge/on%20spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/31yg3xp63jqgmkph2cmphenarqci?si=I4MKoGnlQPSxlRanDSEOGg)
+</div>
 
 ```
-カルカッタ — Kolkata  ⟡  コード — code  ⟡  音楽 — music  ⟡  ゲーム — games
+                     ┌─────────────────┐
+                     │   astral-api     │
+                     │  (game engine)   │
+                     └────────┬─────────┘
+                              │
+              ┌───────────────┼───────────────┐
+              │                                │
+     ┌────────▼────────┐             ┌─────────▼─────────┐
+     │  Baileys socket   │             │   WebSocket        │
+     │  (WhatsApp I/O)   │             │   gateway           │
+     └────────┬────────┘             └─────────┬─────────┘
+              │                                │
+     players issue commands            astral-web renders
+     from inside WhatsApp              live state, no polling
 ```
 
-![](https://komarev.com/ghpvc/?username=Xenkaii&color=9333ea&style=flat-square&label=visitors)
+Every game action is a single event that fans out to both surfaces. The chat client never has more authority than the web client — both are just views into state the API owns. That constraint is deliberate: it's what keeps the economy consistent when two hundred people are rolling dice at once.
+
+<br/>
+
+<div align="center">
+
+## stack
+
+<img src="https://skillicons.dev/icons?i=ts,nodejs,mongodb,nextjs,tailwind,docker,git,figma&theme=dark" />
+
+<br/><br/>
+
+![Fastify](https://img.shields.io/badge/Fastify-0d0d0d?style=for-the-badge&logo=fastify&logoColor=cfcac2)
+![Baileys](https://img.shields.io/badge/Baileys-0d0d0d?style=for-the-badge&logo=whatsapp&logoColor=cfcac2)
+![WebSockets](https://img.shields.io/badge/WebSockets-0d0d0d?style=for-the-badge&logo=socketdotio&logoColor=cfcac2)
+![Mongoose](https://img.shields.io/badge/Mongoose-0d0d0d?style=for-the-badge&logo=mongoose&logoColor=cfcac2)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d1b69,50:1a0533,100:0d0d0d&height=120&section=footer" />
+<br/>
+
+<div align="center">
+
+## stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=Xenkaii&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=cfcac2&icon_color=8a8a8a&text_color=8a8a8a&rank_icon=github" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xenkaii&layout=compact&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=cfcac2&text_color=8a8a8a" height="165"/>
+
+<img src="https://streak-stats.demolab.com?user=Xenkaii&theme=github-dark&hide_border=true&background=0d0d0d&ring=8a8a8a&fire=cfcac2&currStreakLabel=cfcac2" />
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://i.ibb.co/TMwzPKmd/chinese-calligraphy.gif" width="220" style="border-radius:4px;" />
+<br/><sub>closing motion beat — something quiet, ink-drop or slow fade works</sub>
+</div>
+
+<br/>
+
+<div align="center">
+
+## connect
+
+[![WhatsApp](https://img.shields.io/badge/message-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/916296247464?text=Yoo%20Xenkai)
+[![Spotify](https://img.shields.io/badge/spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/31yg3xp63jqgmkph2cmphenarqci)
+
+<sub>Kolkata ⟡ xen-labs ⟡ Astral</sub>
+
+<img src="https://komarev.com/ghpvc/?username=Xenkaii&color=8a8a8a&style=flat-square&label=visitors" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a1a,100:0d0d0d&height=100&section=footer" />
