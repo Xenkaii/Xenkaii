@@ -51,6 +51,8 @@ xenkaii:
 <br clear="left"/>
 
 ### <img src="assets/star-spark.svg" width="16"/> `astral-api`
+<img src="assets/brush-underline.svg" width="140"/>
+
 the engine behind it all — WhatsApp bot core, game logic, the boring important stuff
 
 <div align="center">
@@ -64,6 +66,8 @@ the engine behind it all — WhatsApp bot core, game logic, the boring important
 <br clear="left"/>
 
 ### <img src="assets/star-spark.svg" width="16"/> `astral-web`
+<img src="assets/brush-underline.svg" width="140"/>
+
 the companion site — stats, leaderboard, everything the chat can't show off
 
 <div align="center">
@@ -129,7 +133,7 @@ the companion site — stats, leaderboard, everything the chat can't show off
 <br/><br/>
 
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/1215706119297568839me=dark&bg=0a0806&borderRadius=8px&idleMessage=probably%20coding%20or%20gaming)](https://discord.com/users/YOUR_DISCORD_ID)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1215706119297568839?theme=dark&bg=0a0806&borderRadius=8px&idleMessage=probably%20coding%20or%20gaming)](https://discord.com/users/1215706119297568839)
 
 </div>
 
@@ -186,7 +190,7 @@ the companion site — stats, leaderboard, everything the chat can't show off
 
 [![WhatsApp](https://img.shields.io/badge/message-0a0806?style=for-the-badge&logo=whatsapp&logoColor=D4AF6A)](https://wa.me/916296247464?text=Yoo%20Xenkai)
 
-<sub>Kolkata ⟡ xen-labs ⟡ Astral</sub>
+<sub><img src="assets/seal-stamp.svg" width="18" align="absmiddle"/> Kolkata ⟡ xen-labs ⟡ Astral</sub>
 
 <img src="https://komarev.com/ghpvc/?username=Xenkaii&color=8c6d3f&style=flat-square&label=visitors" />
 
@@ -200,7 +204,7 @@ the companion site — stats, leaderboard, everything the chat can't show off
 
 <div align="center">
 
-### <img src="assets/star-spark.svg" width="16"/> off the clock <img src="assets/star-spark.svg" width="16"/>
+### <img src="assets/torii-mark.svg" width="22"/> off the clock <img src="assets/torii-mark.svg" width="22"/>
 
 <sub>tactical shooter · open-world RPG · grand strategy · gym</sub>
 
