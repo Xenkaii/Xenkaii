@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Georgia&size=14&duration=3200&pause=1000&color=D4AF6A&center=true&vCenter=true&width=600&height=30&lines=xen-labs+%2F%2F+Astral;Kolkata%2C+India)](https://github.com/xen-labs)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Georgia&size=14&duration=3200&pause=1000&color=D4AF6A&center=true&vCenter=true&width=600&height=30&lines=xen-labs+%2F%2F+Astral;full-stack%2C+bot+engineering%2C+game+design;probably+in+the+gym+or+in+VS+Code;Kolkata%2C+India)](https://github.com/xen-labs)
 
 </div>
 
@@ -30,8 +30,8 @@ xenkaii:
 </td>
 <td width="45%" valign="top" align="center">
 
-<!-- transparent-bg anime gif — drop yours here, no border/box so it floats on black -->
-<img src="https://i.ibb.co/Pvwch2Cg/32bea0a6afde05c1a68c32a0e0f1fcb9.gif" width="200" />
+
+<img src="https://media.tenor.com/oQA-jEvBg7AAAAAi/mine.gif" width="200" />
 
 </td>
 </tr>
@@ -50,7 +50,7 @@ xenkaii:
 <img src="assets/corner-ornament.svg" width="50" align="left"/>
 <br clear="left"/>
 
-### `astral-api`
+### <img src="assets/star-spark.svg" width="16"/> `astral-api`
 the engine behind it all — WhatsApp bot core, game logic, the boring important stuff
 
 <div align="center">
@@ -63,11 +63,11 @@ the engine behind it all — WhatsApp bot core, game logic, the boring important
 <img src="assets/corner-ornament.svg" width="50" align="left"/>
 <br clear="left"/>
 
-### `astral-web`
-the companion site — stat sheets, leaderboards, everything the chat can't show off
+### <img src="assets/star-spark.svg" width="16"/> `astral-web`
+the companion site — stats, leaderboard, everything the chat can't show off
 
 <div align="center">
-<img src="https://media.tenor.com/xKr1nlG8rgsAAAAj/spookiline-hi.gif" width="170" />
+<img src="https://i.ibb.co/TxRG3C87/giphy.gif" width="170" />
 </div>
 
 </td>
@@ -78,7 +78,7 @@ the companion site — stat sheets, leaderboards, everything the chat can't show
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,nodejs,mongodb,nextjs,tailwind,docker,git,figma&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,nodejs,mongodb,nextjs,tailwind,redis,githubactions,docker,git,figma&theme=dark" />
 
 <br/><br/>
 
@@ -123,12 +123,13 @@ the companion site — stat sheets, leaderboards, everything the chat can't show
 
 <div align="center">
 
-<!--
-  SPOTIFY — connected, using the spotify-embed theme.
-  background_color and bar_color adjusted from Spotify's defaults
-  (121212 grey / 53b14f green) to match the gold/black palette.
--->
+
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31tv4mbxr75rxps34zzzvhh3cehq&cover_image=true&theme=spotify-embed&show_offline=false&background_color=0a0806&interchange=false&profanity=false&hide_remaster=false&bar_color=D4AF6A&bar_color_cover=false&mode=dark)](https://github.com/kittinan/spotify-github-profile)
+
+<br/><br/>
+
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/1215706119297568839me=dark&bg=0a0806&borderRadius=8px&idleMessage=probably%20coding%20or%20gaming)](https://discord.com/users/YOUR_DISCORD_ID)
 
 </div>
 
@@ -147,11 +148,7 @@ the companion site — stat sheets, leaderboards, everything the chat can't show
 
 <br/>
 
-<!--
-  CONTRIBUTION SNAKE — needs a one-time GitHub Actions setup in your
-  Xenkaii/Xenkaii repo (workflow below in chat). Palette set to gold/black
-  to match — once it's live this section renders the animated grid.
--->
+
 <div align="center">
 
 <picture>
@@ -163,13 +160,24 @@ the companion site — stat sheets, leaderboards, everything the chat can't show
 
 <br/>
 
-<!--
-  MANGA PANEL — full-width finale banner, edge to edge.
-  Drop your chosen panel URL below. This is the biggest single visual
-  moment on the page by design — let it breathe, no text crowding it.
--->
+
 <div align="center">
-<img src="https://i.ibb.co/xcRBy27/17.jpg" width="100%" />
+<img src="assets/star-scatter.svg" width="140"/>
+</div>
+
+<div align="center">
+<img src="https://i.ibb.co/8gmjVfbV/Thorfinn-Karlsefni.jpg" width="100%" />
+</div>
+
+<div align="center">
+<img src="assets/star-scatter.svg" width="140"/>
+</div>
+
+<br/>
+
+
+<div align="center">
+<img src="https://media.tenor.com/ojD7kYfG7FsAAAAi/marin-marin-kitagawa.gif" width="500"/>
 </div>
 
 <br/>
@@ -192,7 +200,7 @@ the companion site — stat sheets, leaderboards, everything the chat can't show
 
 <div align="center">
 
-### off the clock
+### <img src="assets/star-spark.svg" width="16"/> off the clock <img src="assets/star-spark.svg" width="16"/>
 
 <sub>tactical shooter · open-world RPG · grand strategy · gym</sub>
 
