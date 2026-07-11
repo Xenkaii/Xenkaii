@@ -18,6 +18,8 @@
 <tr>
 <td width="55%" valign="top">
 
+<img src="assets/crest-mark.svg" width="26"/>
+
 ```yaml
 xenkaii:
   role:     Founder, xen-labs
@@ -60,7 +62,12 @@ the engine behind it all — WhatsApp bot core, game logic, the boring important
 </div>
 
 </td>
-<td width="50%" valign="top">
+<td width="2%" valign="middle" align="center">
+
+<img src="assets/rule-gold-vertical.svg" height="220"/>
+
+</td>
+<td width="48%" valign="top">
 
 <img src="assets/corner-ornament.svg" width="50" align="left"/>
 <br clear="left"/>
@@ -204,7 +211,7 @@ the companion site — stats, leaderboard, everything the chat can't show off
 
 <div align="center">
 
-### <img src="assets/torii-mark.svg" width="22"/> off the clock <img src="assets/torii-mark.svg" width="22"/>
+### <img src="assets/lantern-mark.svg" width="18"/> <img src="assets/torii-mark.svg" width="22"/> off the clock <img src="assets/torii-mark.svg" width="22"/> <img src="assets/lantern-mark.svg" width="18"/>
 
 <sub>tactical shooter · open-world RPG · grand strategy · gym</sub>
 
