@@ -1,0 +1,38 @@
+<svg width="300" height="34" viewBox="0 0 300 34" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGoldTop" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8c6d3f" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#d4af6a" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0d9a8"/>
+      <stop offset="88%" stop-color="#d4af6a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#8c6d3f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- two wings sweeping outward + downward from center, like an opening gate -->
+  <path d="M 150,20 Q 110,20 90,14 Q 60,6 8,10"
+        fill="none" stroke="url(#frameGoldTop)" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M 150,20 Q 190,20 210,14 Q 240,6 292,10"
+        fill="none" stroke="url(#frameGoldTop)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- faint inner echo, adds depth -->
+  <path d="M 150,25 Q 118,25 100,20 Q 76,14 30,16"
+        fill="none" stroke="#8c6d3f" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 150,25 Q 182,25 200,20 Q 224,14 270,16"
+        fill="none" stroke="#8c6d3f" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- center seal, the focal anchor -->
+  <circle cx="150" cy="12" r="6.5" fill="#0a0806" stroke="url(#frameGoldTop)" stroke-width="1.6"/>
+  <circle cx="150" cy="12" r="2" fill="#6b1010"/>
+  <circle cx="150" cy="12" r="0.7" fill="#e8524a"/>
+
+  <!-- small stars at each wingtip -->
+  <path d="M 8,4 C 8.25,6.5 9.75,8 12.25,8.25 C 9.75,8.5 8.25,10 8,12.5 C 7.75,10 6.25,8.5 3.75,8.25 C 6.25,8 7.75,6.5 8,4 Z"
+        fill="url(#frameGoldTop)" opacity="0.8"/>
+  <path d="M 292,4 C 292.25,6.5 293.75,8 296.25,8.25 C 293.75,8.5 292.25,10 292,12.5 C 291.75,10 290.25,8.5 287.75,8.25 C 290.25,8 291.75,6.5 292,4 Z"
+        fill="url(#frameGoldTop)" opacity="0.8"/>
+
+  <!-- tiny dot stars along each wing -->
+  <circle cx="60" cy="7" r="1" fill="#d4af6a" opacity="0.55"/>
+  <circle cx="240" cy="7" r="1" fill="#d4af6a" opacity="0.55"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="300" height="34" viewBox="0 0 300 34" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGoldBottom" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8c6d3f" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#d4af6a" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0d9a8"/>
+      <stop offset="88%" stop-color="#d4af6a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#8c6d3f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- two wings sweeping outward + upward from center, mirrors panel-frame-top vertically -->
+  <path d="M 150,14 Q 110,14 90,20 Q 60,28 8,24"
+        fill="none" stroke="url(#frameGoldBottom)" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M 150,14 Q 190,14 210,20 Q 240,28 292,24"
+        fill="none" stroke="url(#frameGoldBottom)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- faint inner echo -->
+  <path d="M 150,9 Q 118,9 100,14 Q 76,20 30,18"
+        fill="none" stroke="#8c6d3f" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 150,9 Q 182,9 200,14 Q 224,20 270,18"
+        fill="none" stroke="#8c6d3f" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- center seal, anchored higher up so it reads as the "close" point -->
+  <circle cx="150" cy="22" r="6.5" fill="#0a0806" stroke="url(#frameGoldBottom)" stroke-width="1.6"/>
+  <circle cx="150" cy="22" r="2" fill="#6b1010"/>
+  <circle cx="150" cy="22" r="0.7" fill="#e8524a"/>
+
+  <!-- small stars at each wingtip, now at bottom corners -->
+  <path d="M 8,26 C 8.25,28.5 9.75,30 12.25,30.25 C 9.75,30.5 8.25,32 8,34.5 C 7.75,32 6.25,30.5 3.75,30.25 C 6.25,30 7.75,28.5 8,26 Z"
+        fill="url(#frameGoldBottom)" opacity="0.8"/>
+  <path d="M 292,26 C 292.25,28.5 293.75,30 296.25,30.25 C 293.75,30.5 292.25,32 292,34.5 C 291.75,32 290.25,30.5 287.75,30.25 C 290.25,30 291.75,28.5 292,26 Z"
+        fill="url(#frameGoldBottom)" opacity="0.8"/>
+
+  <!-- tiny dot stars along each wing -->
+  <circle cx="60" cy="27" r="1" fill="#d4af6a" opacity="0.55"/>
+  <circle cx="240" cy="27" r="1" fill="#d4af6a" opacity="0.55"/>
+</svg>

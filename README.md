@@ -173,7 +173,7 @@ the companion site — stats, leaderboard, everything the chat can't show off
 
 
 <div align="center">
-<img src="assets/star-scatter.svg" width="140"/>
+<img src="assets/panel-frame-top.svg" width="140"/>
 </div>
 
 <div align="center">
@@ -181,7 +181,7 @@ the companion site — stats, leaderboard, everything the chat can't show off
 </div>
 
 <div align="center">
-<img src="assets/star-scatter.svg" width="140"/>
+<img src="assets/panel-frame-bottom.svg" width="140"/>
 </div>
 
 <br/>
