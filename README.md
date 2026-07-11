@@ -173,15 +173,15 @@ the companion site — stats, leaderboard, everything the chat can't show off
 
 
 <div align="center">
-<img src="assets/panel-frame-top.svg" width="140"/>
+<img src="assets/panel-frame-top.svg" width="60%"/>
 </div>
 
 <div align="center">
-<img src="https://i.ibb.co/8gmjVfbV/Thorfinn-Karlsefni.jpg" width="100%" />
+<img src="https://i.ibb.co/8gmjVfbV/Thorfinn-Karlsefni.jpg" width="60%" />
 </div>
 
 <div align="center">
-<img src="assets/panel-frame-bottom.svg" width="140"/>
+<img src="assets/panel-frame-bottom.svg" width="60%"/>
 </div>
 
 <br/>
