@@ -31,7 +31,7 @@ xenkaii:
 <td width="45%" valign="top" align="center">
 
 <!-- transparent-bg anime gif — drop yours here, no border/box so it floats on black -->
-<img src="https://media.tenor.com/uZNHR3i3uoUAAAAi/cute-anime.gif" width="200" />
+<img src="https://i.ibb.co/Pvwch2Cg/32bea0a6afde05c1a68c32a0e0f1fcb9.gif" width="200" />
 
 </td>
 </tr>
@@ -50,16 +50,11 @@ xenkaii:
 <img src="assets/corner-ornament.svg" width="50" align="left"/>
 <br clear="left"/>
 
-### `astral-api` — the engine
-`TypeScript` `Fastify` `MongoDB` `Baileys`
-
-- multi-session bot core, one shared brain
-- command pipeline → gate → handler → broadcast
-- deterministic combat RNG, fully auditable
-- economy that can't be gamed
+### `astral-api`
+the engine behind it all — WhatsApp bot core, game logic, the boring important stuff
 
 <div align="center">
-<img src="https://i.ibb.co/xcRBy27/17.jpghttps://i.ibb.co/1fJZWGss/366745cdf355e46f8dad7b7f0809352e.gif" width="170" />
+<img src="https://i.ibb.co/Ps4WCtLv/cfe8ce88235e9670ccef8217facab877.gif" width="170" />
 </div>
 
 </td>
@@ -68,13 +63,8 @@ xenkaii:
 <img src="assets/corner-ornament.svg" width="50" align="left"/>
 <br clear="left"/>
 
-### `astral-web` — the mirror
-`Next.js` `Tailwind` `WebSockets`
-
-- magic-link auth, zero cold DMs
-- live stat sheets via socket push
-- guild boards, trade ledger, leaderboard
-- built to be screenshotted
+### `astral-web`
+the companion site — stat sheets, leaderboards, everything the chat can't show off
 
 <div align="center">
 <img src="https://media.tenor.com/xKr1nlG8rgsAAAAj/spookiline-hi.gif" width="170" />
@@ -83,27 +73,6 @@ xenkaii:
 </td>
 </tr>
 </table>
-
-<br/>
-
-<img src="assets/rule-gold.svg" width="600" />
-
-<br/>
-
-<div align="center">
-
-```
-   astral-api  ──┬── Baileys socket  → players issue commands in WhatsApp
-    (engine)      └── WebSocket gate  → astral-web renders live, no polling
-```
-
-<sub>one event, two surfaces — chat never outranks web, both just read state the api owns</sub>
-
-</div>
-
-<br/>
-
-<img src="assets/rule-gold.svg" width="600" />
 
 <br/>
 
@@ -118,6 +87,37 @@ xenkaii:
 ![WebSockets](https://img.shields.io/badge/WebSockets-0a0806?style=for-the-badge&logo=socketdotio&logoColor=D4AF6A)
 
 </div>
+
+<br/>
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+<img src="assets/tick-mark.svg" width="40"/>
+
+**something with computer vision**
+<sub>private repo, cooking slowly</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="assets/tick-mark.svg" width="40"/>
+
+**a CLI tool I actually use daily**
+<sub>private repo, might open-source it eventually</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="assets/tick-mark.svg" width="40"/>
+
+**next xen-labs thing**
+<sub>too early to talk about</sub>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -136,8 +136,8 @@ xenkaii:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Xenkaii&show_icons=true&theme=github_dark&hide_border=true&bg_color=0a0806&title_color=D4AF6A&icon_color=8c6d3f&text_color=8c6d3f&rank_icon=github" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xenkaii&layout=compact&theme=github_dark&hide_border=true&bg_color=0a0806&title_color=D4AF6A&text_color=8c6d3f" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Xenkaii&show_icons=true&theme=github_dark&hide_border=true&bg_color=0a0806&title_color=D4AF6A&icon_color=8c6d3f&text_color=8c6d3f&rank_icon=github" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Xenkaii&layout=compact&theme=github_dark&hide_border=true&bg_color=0a0806&title_color=D4AF6A&text_color=8c6d3f" height="165"/>
 
 <br/>
 
@@ -163,10 +163,6 @@ xenkaii:
 
 <br/>
 
-<img src="assets/rule-gold.svg" width="600" />
-
-<br/>
-
 <!--
   MANGA PANEL — full-width finale banner, edge to edge.
   Drop your chosen panel URL below. This is the biggest single visual
@@ -185,5 +181,27 @@ xenkaii:
 <sub>Kolkata ⟡ xen-labs ⟡ Astral</sub>
 
 <img src="https://komarev.com/ghpvc/?username=Xenkaii&color=8c6d3f&style=flat-square&label=visitors" />
+
+</div>
+
+<br/>
+
+<img src="assets/rule-gold.svg" width="600" />
+
+<br/>
+
+<div align="center">
+
+### off the clock
+
+<sub>tactical shooter · open-world RPG · grand strategy · gym</sub>
+
+![Valorant](https://img.shields.io/badge/Valorant-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
+![RDR2](https://img.shields.io/badge/Red%20Dead%20Redemption%202-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
+![Manor Lords](https://img.shields.io/badge/Manor%20Lords-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
+![Total War](https://img.shields.io/badge/Total%20War-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
+![Assassin's Creed](https://img.shields.io/badge/Assassin%27s%20Creed-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
+![Gym](https://img.shields.io/badge/Gym-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
+![Cooking](https://img.shields.io/badge/Cooking-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
 
 </div>
