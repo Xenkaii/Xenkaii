@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/ayakashi-mark.svg" width="140" alt="Ayakashi" />
+
+<br/>
+
 <img src="assets/header-banner.svg" width="800" alt="XENKAII" />
 
 <br/>
@@ -8,13 +12,17 @@
 
 <sub>xen-labs ⟡ Ayakashi</sub>
 
+<br/>
+
+<img src="assets/star-scatter.svg" width="140"/>
+
 </div>
 
 <br/>
 
----
+<img src="assets/corner-ornament.svg" width="60" align="left" />
 
-<br/>
+<br clear="left"/>
 
 <table align="center" width="100%">
 <tr>
@@ -42,13 +50,15 @@ xenkaii:
 
 <br/>
 
----
+<div align="center">
+<img src="assets/rule-gold.svg" width="70%" />
+</div>
 
 <br/>
 
 <div align="center">
 
-### <img src="assets/star-spark.svg" width="16"/> the two repos
+### <img src="assets/star-spark.svg" width="16"/> the two repos <img src="assets/star-spark.svg" width="16"/>
 
 </div>
 
@@ -58,15 +68,27 @@ xenkaii:
 <tr>
 <td width="48%" valign="top" align="center">
 
+<img src="assets/corner-ornament.svg" width="40" align="left"/>
+<br clear="left"/>
+
 **`ayakashi-core`**
+<img src="assets/brush-underline.svg" width="120"/>
 
 the engine — card logic, gacha, trading, mini-game backends. also runs the companion chat integration.
 
 </td>
-<td width="4%"></td>
+<td width="4%" valign="middle" align="center">
+
+<img src="assets/rule-gold-vertical.svg" height="180"/>
+
+</td>
 <td width="48%" valign="top" align="center">
 
+<img src="assets/corner-ornament.svg" width="40" align="left"/>
+<br clear="left"/>
+
 **[`ayakashi`](https://github.com/xen-labs/ayakashi)**
+<img src="assets/brush-underline.svg" width="120"/>
 
 the browser side — mini-games, collection viewer, leaderboards, trading UI
 
@@ -103,7 +125,9 @@ the browser side — mini-games, collection viewer, leaderboards, trading UI
 
 <br/>
 
----
+<div align="center">
+<img src="assets/divider-ink.svg" width="70%"/>
+</div>
 
 <br/>
 
@@ -138,7 +162,9 @@ the browser side — mini-games, collection viewer, leaderboards, trading UI
 
 <br/>
 
----
+<div align="center">
+<img src="assets/rule-gold.svg" width="70%" />
+</div>
 
 <br/>
 
@@ -173,7 +199,9 @@ the browser side — mini-games, collection viewer, leaderboards, trading UI
 
 <br/>
 
----
+<div align="center">
+<img src="assets/rule-gold.svg" width="70%" />
+</div>
 
 <br/>
 
@@ -197,7 +225,9 @@ the browser side — mini-games, collection viewer, leaderboards, trading UI
 
 <br/>
 
----
+<div align="center">
+<img src="assets/rule-gold.svg" width="70%" />
+</div>
 
 <br/>
 
@@ -221,7 +251,9 @@ the browser side — mini-games, collection viewer, leaderboards, trading UI
 
 <br/>
 
----
+<div align="center">
+<img src="assets/rule-gold.svg" width="70%" />
+</div>
 
 <br/>
 
