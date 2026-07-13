@@ -28,7 +28,7 @@
 
 <img src="assets/crest-mark.svg" width="20"/> **xen-labs**<br/><img src="assets/brush-underline.svg" width="76"/>
 
-a one-person studio building anime-flavored bot & web experiences — economy systems, card-collecting mechanics, live companion chat. everything currently orbits **Ayakashi**.
+a two-person studio building anime-flavored bot & web experiences — economy systems, card-collecting mechanics, live companion chat. everything currently orbits **Ayakashi**.
 
 <sub>[`@xen-labs`](https://github.com/xen-labs) · Kolkata, India</sub>
 
@@ -107,7 +107,7 @@ the engine — card logic, gacha, trading, mini-game backends. also runs the com
 
 **[`ayakashi`](https://github.com/xen-labs/ayakashi)**<br/><img src="assets/brush-underline.svg" width="82"/>
 
-the browser side — mini-games, collection viewer, leaderboards, trading UI.
+the browser side — mini-games, collections, leaderboards, trading UI, marketplace, auctions.
 
 <img src="assets/rule-gold.svg" width="130"/><br/>
 <img src="https://i.ibb.co/TxRG3C87/giphy.gif" width="140" /><br/>
@@ -232,11 +232,11 @@ the browser side — mini-games, collection viewer, leaderboards, trading UI.
 
 <br/><br/>
 
-<img src="assets/corner-ornament.svg" width="28"/>
+<img src="assets/star-spark.svg" width="28"/>
 <br/>
 <img src="https://media.tenor.com/ojD7kYfG7FsAAAAi/marin-marin-kitagawa.gif" width="420"/>
 
-<sub>⟡ marin kitagawa, resident menace ⟡</sub>
+<sub>⟡ marin kitagawa — face of the companion chat ⟡</sub>
 
 </div>
 
