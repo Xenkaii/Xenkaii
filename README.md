@@ -224,3 +224,4 @@ the companion site — stats, leaderboard, everything the chat can't show off
 ![Cooking](https://img.shields.io/badge/Cooking-0a0806?style=flat-square&logoColor=D4AF6A&labelColor=1a1108)
 
 </div>
+ 
